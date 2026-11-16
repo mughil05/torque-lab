@@ -1,0 +1,48 @@
+.venv/
+venv/
+env/
+
+# Local source databases and generated/derived evaluation outputs
+/sources/
+/artifacts/
+/data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.csv
+*.jsonl
+*.ndjson
+*.parquet
+*.feather
+*.arrow
+
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python environments, caches, and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Temporary/editor files and logs
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.log
+.DS_Store
+
+# Serialized models and Python objects
+*.joblib
+*.pkl
+*.pickle
