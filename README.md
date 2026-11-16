@@ -2,6 +2,9 @@
 
 TorqueLab is a Streamlit application for exploring real gasoline vehicle performance, predicting 0–60 mph acceleration, comparing cars, and inspecting model behavior. Version 1.2 adds group-aware prediction intervals and individual Random Forest explanations while preserving the original production models and grouped holdout.
 
+> **At a glance:** Predict gasoline-car 0–60 mph performance, compare real vehicles, explore hypothetical tuning, and inspect SHAP explanations. The Random Forest achieved **0.572 s MAE** and **0.896 R²** on a grouped 281-row holdout; group-calibrated intervals are evaluated separately. The public repository contains **code only**: external automotive data must be obtained separately, as explained in [Local data and reproduction](#local-data-and-reproduction).
+
+
 ## What it does
 
 - **Home:** model highlights sourced from generated evaluation metadata, recognizable real-record examples when available, and working workspace shortcuts.
